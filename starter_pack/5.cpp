@@ -11,7 +11,7 @@ int main(){
     cin>>N;
     bool isprime=true;
 
-    for(int i=2;i<N/2;i++){
+    for(int i=2;i<=N/2;i++){
         if(N%i==0){
             cout<<" The number is not prime \n";
             isprime=false;
