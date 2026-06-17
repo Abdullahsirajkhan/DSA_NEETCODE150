@@ -31,5 +31,7 @@ int main(){
         cout<<" "<<second;
     }
 
+    cout<<" done";
+
     return 0;
 }
