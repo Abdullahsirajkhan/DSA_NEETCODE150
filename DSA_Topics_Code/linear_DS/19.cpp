@@ -2,23 +2,22 @@
 using namespace std;
 
 int max_subarrsys(int* arr1, int* arr2, int n , int k){
-    int Max=INT32_MIN, sum=0;
-    int dup=; 
+    int Max=0, sum=0;
+    int dup=0; 
     
     for(int i=0;i<n;i++){
         if(i<k){
             sum+=arr1[i];
             arr2[arr1[i]]+=1;
-            if(arr2[arr1[i]]>1){
-                check=0;
+            if(arr2[arr1[i]]==2){
+                dup++;
             }
-            if(i==k-1&&check){
-                Max=sum;                
+            if(i==k-1&&dup==0){
+                Max=sum;
             }
         }
 
         else{
-            sum+=arr1[i] -arr1[i-k];
             arr2[arr1[i-k]]-=1;
             arr2[arr1[i]]+=1;
             if(arr2[arr1[i]]==1&&check){
