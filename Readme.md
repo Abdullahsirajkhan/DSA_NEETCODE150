@@ -15,7 +15,7 @@ Comrade Abdullah
 | **Q1**     | check duplicates in an array   | Easy       | 12 mins    |   1st   |             Easyyyyyyy                   |
 | **Q2**     | check if 2 strings are anagram | Easy       | 15 mins    |   1st   |             Easyyy                       |
 | **Q3**     | 2-sum                          | Easy       | 25 mins    |   1st   |             somewhat difficult           |
-| **Q4**     |                                |            | _ mins     |         |                                          |
+| **Q4**     |                                | Medium     | 25 mins    |   2nd   |      hard                                |
 | **Q5**     |                                |            | _ mins     |         |                                          |
 | **Q6**     |                                |            | _ mins     |         |                                          |
 | **Q7**     |                                |            | _ mins     |         |                                          |
